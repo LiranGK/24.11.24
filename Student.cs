@@ -41,5 +41,9 @@ namespace kys
         {
             return this.grade>other.grade;
         }
+        public string GetName()
+        {
+            return this.name;
+        }
     }
 }
